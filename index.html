@@ -27,104 +27,254 @@
   </head>
   <body class="manrope">
     <header class="container mx-auto my-8 lg:my-16">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-              </div>
-              <a class="btn btn-ghost text-[#131318] text-4xl ">Hockey<span class="text-[#FF4240]">’</span>s</a>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 text-lg font-bold">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                
-              </ul>
-            </div>
-            <div class="navbar-end space-x-4">
-                <img class="hidden lg:flex" src="./Images/search.png" alt="search">
-              <a class="btn bg-[#FF4240] text-lg font-bold text-white">Get Ticket</a>
-            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
           </div>
+          <a class="btn btn-ghost text-[#131318] text-4xl"
+            >Hockey<span class="text-[#FF4240]">’</span>s</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-lg font-bold">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end space-x-4">
+          <img class="hidden lg:flex" src="./Images/search.png" alt="search" />
+          <a class="btn bg-[#FF4240] text-lg font-bold text-white"
+            >Get Ticket</a
+          >
+        </div>
+      </div>
     </header>
 
     <main>
-        <section class="container mx-auto px-5 mb-8 lg:mb-16">
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
+      <section class="container mx-auto px-5 mb-8 lg:mb-16">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div
+              class="bg-[#131318] absolute invisible lg:visible w-1/2 text-white p-8 rounded-md bottom-28 right-12"
+            >
+              <h4 class="text-2xl font-extrabold">
+                Meet all the heroes from the field
+              </h4>
+              <p class="text-lg font-medium opacity-70 mt-4">
+                If you don't want to miss this chance, quickly register and get
+                in touch with your favourite champion.
+              </p>
+            </div>
 
-                  <div class="bg-[#131318] absolute invisible lg:visible w-1/2  text-white p-8 rounded-md bottom-28 right-12">
-                    <h4 class="text-2xl font-extrabold"> Meet all the heroes from the field</h4>
-                    <p class="text-lg font-medium opacity-70 mt-4">If you don't want to miss this chance, quickly register and get in touch with your favourite champion.</p>
-                  </div>
+            <img src="./Images/1.png" class="w-full" />
+            <div
+              class="absolute flex gap-8 lg:transform bottom-0 lg:left-0 lg:-translate-y-28 lg:translate-x-28 -translate-y-4 translate-x-32"
+            >
+              <a
+                href="#slide4"
+                class="btn bg-black border-none text-white btn-circle"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn bg-black border-none text-white btn-circle"
+                >❯</a
+              >
+            </div>
+          </div>
 
+          <div id="slide2" class="carousel-item relative w-full">
+            <div
+              class="bg-[#131318] absolute invisible lg:visible w-1/2 text-white p-8 rounded-lg bottom-28 right-12"
+            >
+              <h4 class="text-2xl font-extrabold">
+                Meet all the heroes from the field
+              </h4>
+              <p class="text-lg font-medium opacity-70 mt-4">
+                If you don't want to miss this chance, quickly register and get
+                in touch with your favourite champion.
+              </p>
+            </div>
 
-                  <img src="./Images/1.png" class="w-full" />
-                  <div class="absolute flex gap-8 lg:transform bottom-0 lg:left-0 lg:-translate-y-28 lg:translate-x-28 -translate-y-4 translate-x-32">
-                    <a href="#slide4" class="btn bg-black border-none text-white btn-circle">❮</a> 
-                    <a href="#slide2" class="btn bg-black border-none text-white btn-circle">❯</a>
-                  </div>
-                </div> 
+            <img src="./Images/2.png" class="w-full" />
+            <div
+              class="absolute flex gap-8 transform bottom-0 left-0 -translate-y-28 translate-x-28"
+            >
+              <a
+                href="#slide1"
+                class="btn bg-black border-none text-white btn-circle"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="btn bg-black border-none text-white btn-circle"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <div
+              class="bg-[#131318] absolute invisible lg:visible w-1/2 text-white p-8 rounded-lg bottom-28 right-12"
+            >
+              <h4 class="text-2xl font-extrabold">
+                Meet all the heroes from the field
+              </h4>
+              <p class="text-lg font-medium opacity-70 mt-4">
+                If you don't want to miss this chance, quickly register and get
+                in touch with your favourite champion.
+              </p>
+            </div>
 
+            <img src="./Images/3.png" class="w-full" />
+            <div
+              class="absolute flex gap-8 transform bottom-0 left-0 -translate-y-28 translate-x-28"
+            >
+              <a
+                href="#slide2"
+                class="btn bg-black border-none text-white btn-circle"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="btn bg-black border-none text-white btn-circle"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <div
+              class="bg-[#131318] absolute invisible lg:visible w-1/2 text-white p-8 rounded-lg bottom-28 right-12"
+            >
+              <h4 class="text-2xl font-extrabold">
+                Meet all the heroes from the field
+              </h4>
+              <p class="text-lg font-medium opacity-70 mt-4">
+                If you don't want to miss this chance, quickly register and get
+                in touch with your favourite champion.
+              </p>
+            </div>
 
-                <div id="slide2" class="carousel-item relative w-full">
+            <img src="./Images/4.png" class="w-full" />
+            <div
+              class="absolute flex gap-8 transform bottom-0 left-0 -translate-y-28 translate-x-28"
+            >
+              <a
+                href="#slide3"
+                class="btn bg-black border-none text-white btn-circle"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn bg-black border-none text-white btn-circle"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
 
-                  <div class="bg-[#131318] absolute invisible lg:visible w-1/2  text-white p-8 rounded-lg bottom-28 right-12">
-                    <h4 class="text-2xl font-extrabold"> Meet all the heroes from the field</h4>
-                    <p class="text-lg font-medium opacity-70 mt-4">If you don't want to miss this chance, quickly register and get in touch with your favourite champion.</p>
-                  </div>
+        <div
+          class="bg-[#131318] lg:hidden mt-5 lg:w-1/2 text-white p-3 rounded-lg"
+        >
+          <h4 class="text-2xl font-extrabold">
+            Meet all the heroes from the field
+          </h4>
+          <p class="text-lg font-medium opacity-70 mt-4">
+            If you don't want to miss this chance, quickly register and get in
+            touch with your favourite champion.
+          </p>
+        </div>
 
-                  <img src="./Images/2.png" class="w-full" />
-                  <div class="absolute flex gap-8 transform bottom-0 left-0 -translate-y-28 translate-x-28">
-                    <a href="#slide1" class="btn bg-black border-none text-white btn-circle">❮</a> 
-                    <a href="#slide3" class="btn bg-black border-none text-white btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <div class="bg-[#131318] absolute invisible lg:visible w-1/2  text-white p-8 rounded-lg bottom-28 right-12">
-                    <h4 class="text-2xl font-extrabold"> Meet all the heroes from the field</h4>
-                    <p class="text-lg font-medium opacity-70 mt-4">If you don't want to miss this chance, quickly register and get in touch with your favourite champion.</p>
-                  </div>
+        <div class="mt-24">
+          <img src="./Images/Line 2.png" class="w-full" alt="" />
+        </div>
+      </section>
 
-                  <img src="./Images/3.png" class="w-full" />
-                  <div class="absolute flex gap-8 transform bottom-0 left-0 -translate-y-28 translate-x-28">
-                    <a href="#slide2" class="btn bg-black border-none text-white btn-circle">❮</a> 
-                    <a href="#slide4" class="btn bg-black border-none text-white btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide4" class="carousel-item relative w-full">
+      <section class="container mx-auto p-5 my-8 lg:my-16">
+        <div class="text-center">
+          <h2 class="text-5xl font-extrabold">Professional Hockeys Club</h2>
+          <p class="opacity-70 mt-6">
+            Here we present to you an overall facilities of our club. Because of
+            these, people are attracted and our club is getting bigger day by
+            day.
+          </p>
+        </div>
 
-                  <div class="bg-[#131318] absolute invisible lg:visible w-1/2  text-white p-8 rounded-lg bottom-28 right-12">
-                    <h4 class="text-2xl font-extrabold"> Meet all the heroes from the field</h4>
-                    <p class="text-lg font-medium opacity-70 mt-4">If you don't want to miss this chance, quickly register and get in touch with your favourite champion.</p>
-                  </div>
+        <div class="mt-24">
+          <img src="./Images/Line 2.png" class="w-full" alt="" />
+        </div>
 
-                  <img src="./Images/4.png" class="w-full" />
-                  <div class="absolute flex gap-8 transform bottom-0 left-0 -translate-y-28 translate-x-28">
-                    <a href="#slide3" class="btn bg-black border-none text-white btn-circle">❮</a> 
-                    <a href="#slide1" class="btn bg-black border-none text-white btn-circle">❯</a>
-                  </div>
-                </div>
-                
-              </div>
+        <div class="flex flex-col lg:flex-row gap-28 mt-16">
+          <div class="flex flex-col items-center">
+          <div class="radial-progress text-[#FF4240]" style="--value: 87" role="progressbar">
+            87%
+          </div>
+          <div class="text-center space-y-4 mt-6">
+            <h4 class="text-lg font-semibold">Prayer Facility</h4>
+            <p class=" opacity-70">You won't have this level of support from anyone except us.</p>
+          </div>
+        </div>
 
-              <div class="bg-[#131318] lg:hidden mt-5 lg:w-1/2 text-white p-3 rounded-lg">
-                <h4 class="text-2xl font-extrabold"> Meet all the heroes from the field</h4>
-                <p class="text-lg font-medium opacity-70 mt-4">If you don't want to miss this chance, quickly register and get in touch with your favourite champion.</p>
-              </div>
-        </section>
+        <div class="flex flex-col items-center">
+          <div class="radial-progress text-[#49d293]" style="--value: 95" role="progressbar">
+            95%
+          </div>
+          <div class="text-center space-y-4 mt-6">
+            <h4 class="text-lg font-semibold">Experienced Coach</h4>
+            <p class=" opacity-70">Experienced coaches from all over the country.</p>
+          </div>
+        </div>
+          
+         <div class="flex flex-col items-center">
+          <div class="radial-progress text-[#ffb546]" style="--value: 90" role="progressbar">
+            90%
+          </div>
+          <div class="text-center space-y-4 mt-6">
+            <h4 class="text-lg font-semibold">Senior Player</h4>
+            <p class=" opacity-70">Champions you love to cheer to are with us from the beginning.</p>
+          </div>
+
+          
+         </div>
+         <div class="flex flex-col items-center">
+          <div class="radial-progress text-[#4c8df1]" style="--value: 80" role="progressbar">
+            80%
+          </div>
+          <div class="text-center space-y-4 mt-6">
+            <h4 class="text-lg font-semibold">Training Ground</h4>
+            <p class=" opacity-70">Best training ground in the town.</p>
+          </div>
+         </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
